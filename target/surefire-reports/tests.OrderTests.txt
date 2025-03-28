@@ -1,18 +1,18 @@
 -------------------------------------------------------------------------------
 Test set: tests.OrderTests
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 2.012 s <<< FAILURE! - in tests.OrderTests
-tests.OrderTests.testCreateOrderWithoutAuth  Time elapsed: 0.365 s  <<< FAILURE!
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.247 s <<< FAILURE! - in tests.OrderTests
+tests.OrderTests.testCreateOrderWithoutAuth  Time elapsed: 0.218 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <401> but was <200>.
 
-	at tests.OrderTests.testCreateOrderWithoutAuth(OrderTests.java:25)
+	at tests.OrderTests.testCreateOrderWithoutAuth(OrderTests.java:27)
 
-tests.OrderTests.testGetOrdersWithAuth  Time elapsed: 0.31 s  <<< FAILURE!
+tests.OrderTests.testGetOrdersWithAuth  Time elapsed: 0.199 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Expected status code <200> but was <401>.
 
-	at tests.OrderTests.testGetOrdersWithAuth(OrderTests.java:53)
+	at tests.OrderTests.testGetOrdersWithAuth(OrderTests.java:55)
 
