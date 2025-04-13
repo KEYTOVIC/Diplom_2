@@ -1,0 +1,7 @@
+utils\UserApi.class
+tests\UserUpdateTests.class
+tests\AuthTests.class
+tests\OrderTests.class
+tests\UserTests.class
+utils\Config.class
+utils\OrderApi.class
